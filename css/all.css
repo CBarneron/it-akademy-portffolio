@@ -19,6 +19,11 @@ body{
   border-radius:25px;
   background-color: #000000;
   color:#00e17b;
+
+}
+.grille{
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 .btn-liens{
   border-radius: 25px;
@@ -35,11 +40,40 @@ body{
   margin-top: 15px;
   border-radius: 15px;
 }
-.mini-Logo{
+.block{
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  font-size: 15px;
 
 }
+.mini-Logo{
+  display: inline-flex;
+
+}
+.miniature{
+  margin: 20px;
+  padding: 20px;
+  border-radius:25px;
+  background-color: #393939;
+  color:#00e17b;
+}
 /* footer */
-footer{
+.footer{
   background-color: #000000;
   color: #00e17b
+  display: grid;
+}
+.logo-footer{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-top: 15px;
+
+
+}
+.footer-column{
+  column-count: 3;
 }
