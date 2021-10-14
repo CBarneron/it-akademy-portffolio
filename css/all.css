@@ -1,16 +1,14 @@
 body{
   background-color: #393939;
-  text-color
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 nav{
-
-  background-color:transparent;
   width: 100%;  /* i'm assuming full width */
   height: 80px;
 }
-nav >a{
+nav > va{
   display: inline-block;
     vertical-align: top;
     margin-right: 20px;
@@ -26,13 +24,10 @@ nav >a{
     margin-right: 20px;
     margin-top: 15px;
 }
-
-
 .active{
   border:3px solid #00e17b;
   box-sizing: border-box;
 }
-
 a{
   text-decoration: none;
   text-decoration-color: none;
