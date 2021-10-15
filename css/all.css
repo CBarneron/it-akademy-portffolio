@@ -29,19 +29,16 @@ h1{
 .logo {
     display: inline-block;
     vertical-align: top;
-    width: 50px;
-    height: 50px;
-
+    width: 5%;
 }
-
 nav{
   margin: 0px;
   padding: 0px;
   font-size: 50px;
-
   display:inline-flex;
   position: fixed;
   width: 100%;
+  height: 10%;
   background-color:rgba(0, 0, 0, 0.25) ;
   align-items: center;
 }
@@ -56,9 +53,9 @@ nav{
 }
 .li-nav{
   margin: 10px;
-padding:10px;
-display: block;
-float: left;
+  padding:10px;
+  display: block;
+  float: left;
 }
 .a-nav{
   text-decoration: none;
@@ -66,7 +63,6 @@ float: left;
   color: #00e17b;
   display: block;
   box-sizing: 2px;
-
 }
 /* hero image index*/
 .image-hero{
@@ -74,7 +70,7 @@ float: left;
   padding:0px;
   background: url("../assets/images/acceuil.png")no-repeat center top;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +81,7 @@ float: left;
   padding:0px;
   background: url("../assets/images/project.png")no-repeat center top;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,8 +112,8 @@ float: left;
 .logo-corps{
   display: inline;
   vertical-align: top;
-  width: 135px;
-  height: 135px;
+  width: 100%;
+  height: 60%;
   margin-right: 20px;
   margin-top: 15px;
   border-radius: 15px;
@@ -146,8 +142,12 @@ float: left;
   background-color: #393939;
   color:#00e17b;
 }
+/* page about */
+.photo{
+  border-radius: 50%;
+  width:25%;
 
-
+}
 /* footer */
 .grille-footer{
   display: grid;
@@ -155,7 +155,7 @@ float: left;
 }
 .footer{
   background-color: #000000;
-  color: #00e17b
+  color: #00e17b;
   display: grid;
 }
 .logo-footer{
