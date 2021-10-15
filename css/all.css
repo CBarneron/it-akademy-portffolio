@@ -3,6 +3,8 @@ html{
   padding:0px;
  display: flex;
 }
+*{margin: 0;
+padding:0;}
 
 
 body{
@@ -35,9 +37,11 @@ h1{
 nav{
   margin: 0px;
   padding: 0px;
+  font-size: 50px;
 
   display:inline-flex;
   position: fixed;
+  width: 100%;
   background-color:rgba(0, 0, 0, 0.25) ;
   align-items: center;
 }
@@ -64,7 +68,7 @@ float: left;
   box-sizing: 2px;
 
 }
-/* hero image */
+/* hero image index*/
 .image-hero{
   margin: 0px;
   padding:0px;
@@ -75,12 +79,22 @@ float: left;
   justify-content: center;
   align-items: center;
 }
-
+/* hero image project */
+.image-hero-project{
+  margin: 0px;
+  padding:0px;
+  background: url("../assets/images/project.png")no-repeat center top;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* corp */
 .card{
-  margin: 120px;
+  margin: 56px;
   padding: 20px;
   border-radius:25px;
   background-color: #000000;
@@ -89,7 +103,7 @@ float: left;
 }
 .grille{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
 }
 .btn-liens{
   border-radius: 25px;
@@ -99,7 +113,7 @@ float: left;
   color:#ffffff;
 }
 .logo-corps{
-  display: inline-block;
+  display: inline;
   vertical-align: top;
   width: 135px;
   height: 135px;
@@ -109,7 +123,7 @@ float: left;
 }
 .block{
   padding: 20px;
-
+  width: 50%;
   line-height: 29.3px;
   font-size: 25px;
   text-align: left;
@@ -117,6 +131,7 @@ float: left;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 
 }
 .mini-Logo{
@@ -133,6 +148,10 @@ float: left;
 
 
 /* footer */
+.grille-footer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 .footer{
   background-color: #000000;
   color: #00e17b
