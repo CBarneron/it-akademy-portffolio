@@ -1,20 +1,86 @@
+html{
+  margin: 0px;
+  padding:0px;
+ display: flex;
+}
+
+
 body{
   background-color: #393939;
+  font-family: 'Roboto';
+  margin: 0px;
 
 }
+a{
+  text-decoration: none;
+  color: #00e17b;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* text */
+h1{
+  padding: 0px;
+  margin: 0px;
+  color: #00e17b;
+}
+
 /* nav bar */
 .logo {
     display: inline-block;
     vertical-align: top;
     width: 50px;
     height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;
+
 }
+
+nav{
+  margin: 0px;
+  padding: 0px;
+
+  display:inline-flex;
+  position: fixed;
+  background-color:rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+}
+.ul-nav{
+
+  display:flex;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0px;
+
+
+}
+.li-nav{
+  margin: 10px;
+padding:10px;
+display: block;
+float: left;
+}
+.a-nav{
+  text-decoration: none;
+  text-align: center;
+  color: #00e17b;
+  display: block;
+  box-sizing: 2px;
+
+}
+/* hero image */
+.image-hero{
+  margin: 0px;
+  padding:0px;
+  background: url("../assets/images/acceuil.png")no-repeat center top;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 /* corp */
 .card{
-  margin: 20px;
+  margin: 120px;
   padding: 20px;
   border-radius:25px;
   background-color: #000000;
@@ -27,6 +93,7 @@ body{
 }
 .btn-liens{
   border-radius: 25px;
+  position: relative;
   align-items: center;
   background-color: #00e17b;
   color:#ffffff;
@@ -42,9 +109,14 @@ body{
 }
 .block{
   padding: 20px;
-  font-size: 30px;
+
+  line-height: 29.3px;
+  font-size: 25px;
   text-align: left;
   font-size: 15px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 }
 .mini-Logo{
@@ -58,6 +130,8 @@ body{
   background-color: #393939;
   color:#00e17b;
 }
+
+
 /* footer */
 .footer{
   background-color: #000000;
@@ -74,6 +148,16 @@ body{
 
 
 }
-.footer-column{
-  column-count: 3;
+.block-footer{
+  padding: 20px;
+  line-height: 29.3px;
+  font-size: 25px;
+
+  font-size: 15px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
 }
